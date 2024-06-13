@@ -40,8 +40,8 @@ TFT_eSPI tft = TFT_eSPI();
 #include<String.h>
 #include <Wire.h>
 #include "FirebaseESP32.h"
-#define WIFI_SSID "Vi Khang" //OPPO Reno8 T
-#define WIFI_PASSWORD "khang270102" //a2wngyct
+#define WIFI_SSID "Vĩ Khang" //OPPO Reno8 T
+#define WIFI_PASSWORD "20161208@Hi" //a2wngyct
 #define FIREBASE_HOST "doan2-38f4f-default-rtdb.firebaseio.com"  //doan2-38f4f-default-rtdb.firebaseio.com //doan2-6b2e3-default-rtdb.firebaseio.com
 #define FIREBASE_AUTH "shVMs5GpDSanPw9Qz7PHqDOUcFLMcfxb62QIx0sf" //shVMs5GpDSanPw9Qz7PHqDOUcFLMcfxb62QIx0sf //6k3TFIg3ziGTC199U50UdZkvuA8zWmyWf0e9UUWH
 
@@ -50,7 +50,7 @@ FirebaseJson json;
 String path = "/"; 
 #define RST_PIN         27
 #define SS_PIN          5
-#define MIN_USB_VOL 4.12
+#define MIN_USB_VOL 4.21
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 SoftwareSerial mySerial(17,16); // These pins are connected to GSM module( TX, RX )
 
@@ -133,9 +133,10 @@ double operational_time;
 char value;
 
 int analogInPin = 36;    // Analog input pin
-int numberOfReadings = 20; // Số lần đọc cho bộ lọc trung bình
-int number_vol = 20; // Số lần đọc cho bộ lọc trung bình
-float calibration = 0.55; // Check Battery voltage using multimeter & add/subtract the value
+int numberOfReadings = 10; // Số lần đọc cho bộ lọc trung bình
+int number_vol = 10; // Số lần đọc cho bộ lọc trung bình
+float calibration = 0.82; // Check Battery voltage using multimeter & add/subtract the value
+bool suddenIncrease = false; 
 
 float total = 0; // Tổng các giá trị đọc analog
 float voltage; 
@@ -982,6 +983,10 @@ if(listen_no.indexOf("NO CARRIER")>0) // I check for only CAR
    goithanhcong_1();
    delay(5000);
    flag_gps=true;
+   if(buttonPressCount == 2)
+   {
+    nut = !nut;
+   }
    buttonPressCount = 0;
    readySystem();
    check=false; 
@@ -2886,7 +2891,7 @@ void goithatbai_ph(){
   tft.printf("GOI THANH CONG");
  }
 
- void pin() 
+  void pin() 
  {
   // Đọc giá trị từ chân analog và tính tổng
   for (int i = 0; i < numberOfReadings; i++) {
@@ -2911,7 +2916,6 @@ void goithatbai_ph(){
     voltageSum += newVoltage;
     previousVoltage = newVoltage;
     validReadings++;
-    
     delay(0.01); // Đợi một chút giữa các lần tính toán
   }
   
@@ -2923,7 +2927,7 @@ void goithatbai_ph(){
     voltage = 0;
   }
 
-  bat_percentage = mapfloat(voltage, 3.5, 4.0, 0, 100); //2.8V as Battery Cut off Voltage & 4.2V as Maximum Voltage
+  bat_percentage = mapfloat(voltage, 3.5, 4.1, 0, 100); //2.8V as Battery Cut off Voltage & 4.2V as Maximum Voltage
   if (bat_percentage >= 100) {
     bat_percentage = 100;
   }
@@ -2938,7 +2942,7 @@ void goithatbai_ph(){
     tft.setTextColor(TFT_BLACK);
     tft.setTextSize(2);
     tft.println((String(bat_percentage) + "%"));
-
+    delay(0.01);
    if (voltage > MIN_USB_VOL)
   { 
     tft.fillRect(252,8, 100, 30, TFT_WHITE);
