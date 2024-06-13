@@ -1,0 +1,25 @@
+Added Component: Designator=HD_DATA_PIN(XH2.54M-2)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH001283"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Header 2P XH2.54-2P Ð?c Th?ng"; VariantName = "[No Variations]"
+Added Component: Designator=R1(R1/4W)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(R1/4W)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DATA_PIN Pin=ESP1-3
+Added Pin To Net: NetName=DATA_PIN Pin=R1-2
+Added Pin To Net: NetName=DATA_PIN Pin=R2-1
+Added Net: Name=DATA_PIN
+Added Pin To Net: NetName=NetHD_DATA_PIN_1 Pin=HD_DATA_PIN-1
+Added Pin To Net: NetName=NetHD_DATA_PIN_1 Pin=R2-2
+Added Net: Name=NetHD_DATA_PIN_1
+Added Pin To Net: NetName=NetHD_DATA_PIN_2 Pin=HD_DATA_PIN-2
+Added Pin To Net: NetName=NetHD_DATA_PIN_2 Pin=R1-1
+Added Net: Name=NetHD_DATA_PIN_2
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component HD_DATA_PIN Header 2P 2.54 Duc Thang
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component R1 100K
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component R2 100K
+Added Room: Name=Sheet1_BUS_DATN

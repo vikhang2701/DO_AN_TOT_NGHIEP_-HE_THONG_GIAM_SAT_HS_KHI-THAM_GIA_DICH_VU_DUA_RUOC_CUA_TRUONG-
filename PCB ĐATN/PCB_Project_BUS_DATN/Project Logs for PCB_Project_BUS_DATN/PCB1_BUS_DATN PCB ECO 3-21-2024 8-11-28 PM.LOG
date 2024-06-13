@@ -1,0 +1,7 @@
+Added Component: Designator=HD1(HED2)
+Add component (AddParameter): Name = "Value"; Value = "Header 2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND_ESP32 Pin=HD1-1
+Added Pin To Net: NetName=5V_ESP32 Pin=HD1-2
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component ESP1 ESP32-DEVKITC
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component HD1 Header 2
+Added Room: Name=Sheet1_BUS_DATN

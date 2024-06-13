@@ -1,0 +1,144 @@
+Added Component: Designator=BUZZER1(Buzzer 5v)
+Added Component: Designator=C1(TO126)
+Add component (AddParameter): Name = "Value"; Value = "C1815"; VariantName = "[No Variations]"
+Added Component: Designator=ESP1(MODULE_ESP32-DEVKITC)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKITC-32D-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKITC-32D-F/Espressif%20Systems/view-part/4220172/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=H_SOS_BUTTON1(XH2.54M-2)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH001283"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Header 2P XH2.54-2P Ð?c Th?ng"; VariantName = "[No Variations]"
+Added Component: Designator=HGPS1(XH2.54M-4)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH001285"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Header 4P XH2.54-4P Ð?c Th?ng"; VariantName = "[No Variations]"
+Added Component: Designator=HRFID1(XH2.54M-8)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH003366"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Header 8P XH2.54-8P Ð?c Th?ng"; VariantName = "[No Variations]"
+Added Component: Designator=HSIM1(XH2.54M-3)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH001292"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Header 3P XH2.54-3P Ð?c Th?ng"; VariantName = "[No Variations]"
+Added Component: Designator=JPTFT_LCD1(JP14-C1T)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613014143121"; VariantName = "[No Variations]"
+Added Component: Designator=Rb_buzzer1(R1/4W)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=Rbutton_sos1(R1/4W)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3_ESP32 Pin=ESP1-1
+Added Pin To Net: NetName=3V3_ESP32 Pin=HGPS1-4
+Added Pin To Net: NetName=3V3_ESP32 Pin=HRFID1-1
+Added Net: Name=3V3_ESP32
+Added Pin To Net: NetName=5V_ESP32 Pin=BUZZER1-1
+Added Pin To Net: NetName=5V_ESP32 Pin=ESP1-19
+Added Pin To Net: NetName=5V_ESP32 Pin=JPTFT_LCD1-1
+Added Pin To Net: NetName=5V_ESP32 Pin=JPTFT_LCD1-8
+Added Pin To Net: NetName=5V_ESP32 Pin=Rbutton_sos1-2
+Added Net: Name=5V_ESP32
+Added Pin To Net: NetName=CS_TFT Pin=ESP1-23
+Added Pin To Net: NetName=CS_TFT Pin=JPTFT_LCD1-3
+Added Net: Name=CS_TFT
+Added Pin To Net: NetName=GND_ESP32 Pin=C1-3
+Added Pin To Net: NetName=GND_ESP32 Pin=ESP1-14
+Added Pin To Net: NetName=GND_ESP32 Pin=ESP1-32
+Added Pin To Net: NetName=GND_ESP32 Pin=ESP1-38
+Added Pin To Net: NetName=GND_ESP32 Pin=H_SOS_BUTTON1-1
+Added Pin To Net: NetName=GND_ESP32 Pin=HGPS1-1
+Added Pin To Net: NetName=GND_ESP32 Pin=HRFID1-3
+Added Pin To Net: NetName=GND_ESP32 Pin=HSIM1-1
+Added Pin To Net: NetName=GND_ESP32 Pin=JPTFT_LCD1-2
+Added Net: Name=GND_ESP32
+Added Pin To Net: NetName=IRQ_RC522 Pin=HRFID1-4
+Added Net: Name=IRQ_RC522
+Added Pin To Net: NetName=MISO_RC522 Pin=ESP1-31
+Added Pin To Net: NetName=MISO_RC522 Pin=HRFID1-5
+Added Net: Name=MISO_RC522
+Added Pin To Net: NetName=MOSI_RC522 Pin=ESP1-37
+Added Pin To Net: NetName=MOSI_RC522 Pin=HRFID1-6
+Added Net: Name=MOSI_RC522
+Added Pin To Net: NetName=MOSI_TFT Pin=ESP1-36
+Added Pin To Net: NetName=MOSI_TFT Pin=JPTFT_LCD1-6
+Added Net: Name=MOSI_TFT
+Added Pin To Net: NetName=NetBUZZER1_2 Pin=BUZZER1-2
+Added Pin To Net: NetName=NetBUZZER1_2 Pin=C1-2
+Added Net: Name=NetBUZZER1_2
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=Rb_buzzer1-2
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=PIN_BUTTON_SOS Pin=ESP1-15
+Added Pin To Net: NetName=PIN_BUTTON_SOS Pin=H_SOS_BUTTON1-2
+Added Pin To Net: NetName=PIN_BUTTON_SOS Pin=Rbutton_sos1-1
+Added Net: Name=PIN_BUTTON_SOS
+Added Pin To Net: NetName=PIN_BUZZER Pin=ESP1-13
+Added Pin To Net: NetName=PIN_BUZZER Pin=Rb_buzzer1-1
+Added Net: Name=PIN_BUZZER
+Added Pin To Net: NetName=RS_TFT Pin=ESP1-12
+Added Pin To Net: NetName=RS_TFT Pin=JPTFT_LCD1-5
+Added Net: Name=RS_TFT
+Added Pin To Net: NetName=RST_ESP32 Pin=ESP1-11
+Added Pin To Net: NetName=RST_ESP32 Pin=HRFID1-2
+Added Net: Name=RST_ESP32
+Added Pin To Net: NetName=RST_TFT Pin=ESP1-10
+Added Pin To Net: NetName=RST_TFT Pin=JPTFT_LCD1-4
+Added Net: Name=RST_TFT
+Added Pin To Net: NetName=RX_GPS_NEO_6M Pin=ESP1-26
+Added Pin To Net: NetName=RX_GPS_NEO_6M Pin=HGPS1-2
+Added Net: Name=RX_GPS_NEO_6M
+Added Pin To Net: NetName=RX_SIM800A Pin=ESP1-28
+Added Pin To Net: NetName=RX_SIM800A Pin=HSIM1-2
+Added Net: Name=RX_SIM800A
+Added Pin To Net: NetName=SCK_RC522 Pin=ESP1-30
+Added Pin To Net: NetName=SCK_RC522 Pin=HRFID1-7
+Added Net: Name=SCK_RC522
+Added Pin To Net: NetName=SCK_TFT Pin=ESP1-33
+Added Pin To Net: NetName=SCK_TFT Pin=JPTFT_LCD1-7
+Added Net: Name=SCK_TFT
+Added Pin To Net: NetName=SDA_RC522 Pin=ESP1-29
+Added Pin To Net: NetName=SDA_RC522 Pin=HRFID1-8
+Added Net: Name=SDA_RC522
+Added Pin To Net: NetName=SDO_TFT Pin=JPTFT_LCD1-9
+Added Net: Name=SDO_TFT
+Added Pin To Net: NetName=T_CLK_TFT Pin=JPTFT_LCD1-10
+Added Net: Name=T_CLK_TFT
+Added Pin To Net: NetName=T_CS_TFT Pin=JPTFT_LCD1-11
+Added Net: Name=T_CS_TFT
+Added Pin To Net: NetName=T_DIN_TFT Pin=JPTFT_LCD1-12
+Added Net: Name=T_DIN_TFT
+Added Pin To Net: NetName=T_DO_TFT Pin=JPTFT_LCD1-13
+Added Net: Name=T_DO_TFT
+Added Pin To Net: NetName=T_IRQ_TFT Pin=JPTFT_LCD1-14
+Added Net: Name=T_IRQ_TFT
+Added Pin To Net: NetName=TX_GPS_NEO_6M Pin=ESP1-24
+Added Pin To Net: NetName=TX_GPS_NEO_6M Pin=HGPS1-3
+Added Net: Name=TX_GPS_NEO_6M
+Added Pin To Net: NetName=TX_SIM800A Pin=ESP1-27
+Added Pin To Net: NetName=TX_SIM800A Pin=HSIM1-3
+Added Net: Name=TX_SIM800A
+Added Class: Name=Sheet1_BUS_DATN
+Added Room: Name=Sheet1_BUS_DATN

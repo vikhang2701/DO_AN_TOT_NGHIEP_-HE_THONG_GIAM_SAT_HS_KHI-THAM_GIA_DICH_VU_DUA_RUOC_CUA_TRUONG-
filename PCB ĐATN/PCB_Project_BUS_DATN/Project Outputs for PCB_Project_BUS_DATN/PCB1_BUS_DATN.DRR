@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB1_BUS_DATN.PcbDoc   4/2/2024  7:51:16 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PCB1_BUS_DATN.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      31mil (0.787mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T2      32mil (0.8mm)                                             Round             21        PTH        0.00inch (0.00mm)
+T3      39mil (1.001mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T4      40mil (1.021mm)                                           Round             52        PTH        0.00inch (0.00mm)
+T5      43mil (1.1mm)                                             Round             3         PTH        0.00inch (0.00mm)
+T6      138mil (3.5mm)                                            Round             4         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              92
+
+Total Processing Time (hh:mm:ss) : 00:00:00

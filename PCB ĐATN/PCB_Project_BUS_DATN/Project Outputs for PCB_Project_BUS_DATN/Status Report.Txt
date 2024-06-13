@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PCB_Project_BUS_DATN.PrjPcb]
+   Generated File[PCB1_BUS_DATN.TXT]
+   Generated File[PCB1_BUS_DATN.LDP]
+   Generated File[PCB1_BUS_DATN.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:51:16 PM On 4/2/2024

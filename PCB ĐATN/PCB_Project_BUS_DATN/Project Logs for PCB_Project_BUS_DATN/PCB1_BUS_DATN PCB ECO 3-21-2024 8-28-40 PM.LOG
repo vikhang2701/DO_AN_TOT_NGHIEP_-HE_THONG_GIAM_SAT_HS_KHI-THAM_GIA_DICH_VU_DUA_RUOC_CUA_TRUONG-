@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=HD1 Old Footprint=HED2 New Footprint=XH2.54M-2
+Change Component Comment : Designator=HD1 Old Comment=Header 2 New Comment=Header 2P 2.54 Duc Thang
+Change component parameters: Designator = "HD1" ("HD1"); Footprint = "HED2"; UniqueID = "\QKELPAEB" ("\QKELPAEB")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH001283"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Header 2P XH2.54-2P Ð?c Th?ng"; VariantName = "[No Variations]"
+Added Room: Name=Sheet1_BUS_DATN

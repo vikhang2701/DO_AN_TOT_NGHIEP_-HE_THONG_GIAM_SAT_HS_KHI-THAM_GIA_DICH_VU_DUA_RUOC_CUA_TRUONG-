@@ -1,0 +1,10 @@
+Change Component Designator: Old Designator=BUZZER? New Designator=BUZZER1
+Change Component Designator: Old Designator=C? New Designator=C1
+Change Component Designator: Old Designator=ESP? New Designator=ESP1
+Change Component Designator: Old Designator=H_SOS_BUTTON? New Designator=H_SOS_BUTTON1
+Change Component Designator: Old Designator=HGPS New Designator=HGPS1
+Change Component Designator: Old Designator=HRFID New Designator=HRFID1
+Change Component Designator: Old Designator=HSIM New Designator=HSIM1
+Change Component Designator: Old Designator=JPTFT_LCD? New Designator=JPTFT_LCD1
+Change Component Designator: Old Designator=Rb_buzzer? New Designator=Rb_buzzer1
+Change Component Designator: Old Designator=Rbutton_sos? New Designator=Rbutton_sos1

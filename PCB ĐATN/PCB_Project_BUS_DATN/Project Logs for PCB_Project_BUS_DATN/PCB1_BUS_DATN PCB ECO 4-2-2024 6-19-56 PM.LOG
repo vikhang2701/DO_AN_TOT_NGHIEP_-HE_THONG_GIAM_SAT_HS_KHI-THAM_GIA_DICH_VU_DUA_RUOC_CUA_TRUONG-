@@ -1,0 +1,23 @@
+Removed Member From Class: ClassName=Sheet1_BUS_DATN Member=HGPS1
+Removed Member From Class: ClassName=Sheet1_BUS_DATN Member=Rb_buzzer1
+Removed Member From Class: ClassName=Sheet1_BUS_DATN Member=Rbutton_sos1
+Change Component Designator: OldDesignator=BUZZER1 NewDesignator=B1
+Change Component Designator: OldDesignator=ESP1 NewDesignator=ESP32
+Change Component Designator: OldDesignator=H_SOS_BUTTON1 NewDesignator=HD7
+Change Component Designator: OldDesignator=HD1 NewDesignator=HD4
+Change Component Designator: OldDesignator=HD_DATA_PIN NewDesignator=HD5
+Change Component Designator: OldDesignator=HGPS1 NewDesignator=HD1
+Change Component Designator: OldDesignator=HRFID1 NewDesignator=HD6
+Change Component Designator: OldDesignator=HSIM1 NewDesignator=HD2
+Change Component Designator: OldDesignator=JPTFT_LCD1 NewDesignator=HD3
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=Rb_buzzer1 NewDesignator=R1
+Change Component Designator: OldDesignator=Rbutton_sos1 NewDesignator=R2
+Change Net Name : Old Net Name=NetBUZZER1_2 New Net Name=NetB1_2
+Change Net Name : Old Net Name=NetHD_DATA_PIN_1 New Net Name=NetHD5_1
+Change Net Name : Old Net Name=NetHD_DATA_PIN_2 New Net Name=NetHD5_2
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component HD4 Header 2P 2.54 Duc Thang
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component R3 100K
+Added Member To Class: ClassName=Sheet1_BUS_DATN Member=Component R4 100K
+Added Room: Name=Sheet1_BUS_DATN
